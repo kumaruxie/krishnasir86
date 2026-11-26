@@ -1314,6 +1314,89 @@ img {
 }
 
 @media (max-width: 700px) {
+  .top-bar {
+    display: none;
+  }
+
+  .hero {
+    padding: 0.75rem 0 1.75rem;
+  }
+
+  .hero > .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-header,
+  .hero-vsl-stack {
+    display: contents;
+  }
+
+  .hero-header h1 {
+    order: 1;
+    font-size: 1.24rem;
+    line-height: 1.22;
+    text-align: center;
+    margin-bottom: 0.45rem;
+  }
+
+  .date-strip-box {
+    order: 2;
+    align-self: center;
+    font-size: 0.7rem;
+    padding: 0.28rem 0.65rem;
+    margin: 0 auto 0.65rem;
+    border-width: 1px;
+  }
+
+  .vsl-frame {
+    order: 3;
+    width: 100%;
+    margin-bottom: 0.85rem;
+  }
+
+  .vsl-label {
+    font-size: 0.74rem;
+    padding: 0.38rem 0.5rem;
+  }
+
+  .stage-photo-caption {
+    font-size: 0.78rem;
+    padding: 0.45rem 0.65rem;
+  }
+
+  .hero-callout {
+    order: 4;
+    font-size: 0.92rem;
+    text-align: center;
+    margin: 0 0 0.75rem;
+  }
+
+  .hero-below-vsl {
+    order: 5;
+    gap: 0.9rem;
+  }
+
+  .hero-sub {
+    font-size: 0.96rem;
+    line-height: 1.5;
+    margin-bottom: 0.2rem;
+  }
+
+  .hero-brand-row {
+    order: 6;
+    margin: 1rem 0 0;
+    padding: 0.85rem 0 0;
+    border-bottom: none;
+    border-top: 1px solid var(--border);
+    justify-content: center;
+    text-align: center;
+  }
+
+  .hero-brand-row .brand-mark span {
+    display: none;
+  }
+
   .section {
     padding: 2.35rem 0;
   }
