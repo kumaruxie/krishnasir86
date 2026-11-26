@@ -199,11 +199,32 @@ img {
   gap: 1.25rem;
 }
 
+.vsl-frame,
 .stage-photo-frame {
   border-radius: 6px;
   overflow: hidden;
-  border: 1px solid var(--border);
+  border: 2px solid var(--royal-blue);
   box-shadow: var(--shadow-box);
+  background: var(--black);
+}
+
+.vsl-label {
+  background: var(--dark-bg);
+  color: var(--yellow);
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.85rem;
+  font-weight: 800;
+  text-align: center;
+  padding: 0.5rem 0.75rem;
+  letter-spacing: 0.02em;
+}
+
+.vsl-frame video {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  display: block;
+  background: var(--black);
+  object-fit: cover;
 }
 
 .stage-photo-frame img {
