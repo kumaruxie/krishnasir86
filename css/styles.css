@@ -489,6 +489,27 @@ img {
   margin-top: 0.55rem;
 }
 
+.hero-rating-line {
+  margin-top: 0.5rem;
+  text-align: center;
+  font-size: 0.86rem;
+  color: var(--ink);
+}
+
+.hero-rating-line a {
+  color: var(--ink);
+  text-decoration: none;
+}
+
+.hero-rating-line a:hover {
+  text-decoration: underline;
+}
+
+.hero-rating-line .stars {
+  color: #eab308;
+  margin-right: 0.25rem;
+}
+
 /* ---------- Sections ---------- */
 .section {
   padding: 3.25rem 0;
@@ -933,6 +954,83 @@ img {
   text-align: center;
 }
 
+.ratings-showcase {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.25rem;
+  margin-bottom: 1.75rem;
+}
+
+.rating-card {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 6px;
+  padding: 1.3rem 1.4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 0.55rem;
+}
+
+.rating-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.rating-platform {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.92rem;
+  font-weight: 800;
+  color: var(--white);
+}
+
+.rating-stars {
+  color: #facc15;
+  font-size: 1.15rem;
+  letter-spacing: 0.08em;
+}
+
+.rating-score {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.9rem;
+  font-weight: 900;
+  color: var(--yellow);
+  line-height: 1;
+}
+
+.rating-score span {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #d1d5db;
+}
+
+.rating-meta {
+  font-size: 0.84rem;
+  font-weight: 700;
+  color: #d1d5db;
+  margin: 0;
+}
+
+.rating-summary {
+  font-size: 0.94rem;
+  color: #f3f4f6;
+  margin: 0;
+}
+
+.rating-link {
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--yellow);
+  text-decoration: none;
+  margin-top: 0.2rem;
+}
+
+.rating-link:hover {
+  text-decoration: underline;
+}
+
 .stories-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1306,6 +1404,7 @@ img {
 
   .days-grid,
   .stories-grid,
+  .ratings-showcase,
   .other-grid,
   .mentor-gallery,
   .clt-examples-row {
