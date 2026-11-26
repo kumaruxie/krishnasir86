@@ -187,34 +187,30 @@ img {
   border-radius: 5px;
 }
 
-.hero-grid {
+.hero-vsl-stack {
+  max-width: 840px;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 1.05fr 0.95fr;
-  gap: 2.25rem;
-  align-items: start;
+  gap: 1.5rem;
 }
 
-.hero-grid--vsl {
-  grid-template-columns: 1.15fr 0.85fr;
-  align-items: center;
-}
-
-.hero-cta-col {
+.hero-below-vsl {
   display: grid;
-  gap: 1.15rem;
+  gap: 1.25rem;
 }
 
 .hero-cta-box {
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: 6px;
-  padding: 1.25rem;
+  padding: 1.35rem 1.5rem;
   box-shadow: var(--shadow-box);
+  text-align: center;
 }
 
 .btn--lg {
   padding: 1.15rem 1.8rem;
-  font-size: 1.14rem;
+  font-size: 1.16rem;
 }
 
 .hero-visual-col {
