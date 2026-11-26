@@ -376,11 +376,11 @@
   // 8. Sticky Mobile CTA Visibility
   function initStickyMobileCta() {
     var stickyBar = document.getElementById("mobile-sticky-cta");
-    var heroForm = document.getElementById("hero-register");
-    if (!stickyBar || !heroForm) return;
+    var heroAnchor = document.getElementById("hero-cta-block") || document.querySelector(".hero");
+    if (!stickyBar || !heroAnchor) return;
 
     function toggleSticky() {
-      var rect = heroForm.getBoundingClientRect();
+      var rect = heroAnchor.getBoundingClientRect();
       if (rect.bottom < 0) {
         stickyBar.classList.add("is-visible");
       } else {

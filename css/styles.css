@@ -194,6 +194,29 @@ img {
   align-items: start;
 }
 
+.hero-grid--vsl {
+  grid-template-columns: 1.15fr 0.85fr;
+  align-items: center;
+}
+
+.hero-cta-col {
+  display: grid;
+  gap: 1.15rem;
+}
+
+.hero-cta-box {
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 1.25rem;
+  box-shadow: var(--shadow-box);
+}
+
+.btn--lg {
+  padding: 1.15rem 1.8rem;
+  font-size: 1.14rem;
+}
+
 .hero-visual-col {
   display: grid;
   gap: 1.25rem;

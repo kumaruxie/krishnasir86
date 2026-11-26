@@ -48,8 +48,8 @@
         </div>
       </div>
 
-      <div class="hero-grid">
-        <!-- Left: VSL Video Player + 3 Quick Bullets -->
+      <div class="hero-grid hero-grid--vsl">
+        <!-- Left: VSL Video Player -->
         <div class="hero-visual-col">
           <div class="vsl-frame">
             <div class="vsl-label">
@@ -70,7 +70,10 @@
               Press play to see why you go blank in English and how the CLT method works
             </div>
           </div>
+        </div>
 
+        <!-- Right: 3 Quick Bullets + Primary CTA Button (Opens Registration Pop-Up) -->
+        <div class="hero-cta-col" id="hero-cta-block">
           <div class="hero-bullets-card">
             <div class="hero-bullets-title">In This 2-Day Live Webinar, You Will:</div>
             <ul class="hero-bullets">
@@ -88,53 +91,17 @@
               </li>
             </ul>
           </div>
-        </div>
 
-        <!-- Right: Shortened Hero Registration Form (Identical 3-Field GHL Form) -->
-        <aside class="form-card" id="hero-register" aria-labelledby="hero-form-title">
-          <div class="form-card__head">
-            <h2 id="hero-form-title">Book Your Free Seat for the 2-Day Live Webinar</h2>
-            <div class="form-card__meta">
-              Free Live Webinar | 2 Days <span data-seat-limit>| Limited Seats</span>
-            </div>
-          </div>
-
-          <div class="form-card__body">
-            <form class="ghl-form" data-form-location="hero" novalidate>
-              <div class="field-group">
-                <label for="hero-name">Your Name</label>
-                <input id="hero-name" name="name" type="text" autocomplete="name" placeholder="Enter your full name" required />
-                <div class="field-error" aria-live="polite"></div>
-              </div>
-
-              <div class="field-group">
-                <label for="hero-phone">WhatsApp Number</label>
-                <input id="hero-phone" name="phone" type="tel" autocomplete="tel" inputmode="tel" placeholder="10-digit WhatsApp number" required />
-                <div class="field-error" aria-live="polite"></div>
-              </div>
-
-              <div class="field-group">
-                <label for="hero-email">Email Address</label>
-                <input id="hero-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
-                <div class="field-error" aria-live="polite"></div>
-              </div>
-
-              <button type="submit" class="btn btn--primary btn--full">Book My Free Seat</button>
-            </form>
-
-            <div class="form-status" role="alert"></div>
-
+          <div class="hero-cta-box">
+            <button type="button" class="btn btn--primary btn--full btn--lg" data-open-modal="modal-register">
+              Book My Free Seat
+            </button>
             <p class="form-micro">
               100% free. Takes 30 seconds. Your joining link will come on WhatsApp.
             </p>
-            <p class="form-privacy">
-              Your details are safe with us. We will only use them to send webinar updates.
-              <button type="button" class="link-btn" data-open-modal="modal-privacy">Privacy Policy</button>
-            </p>
-            <p class="form-seat-line">Seats are limited so that everyone can take part live.</p>
             <div class="trust-line-mini">Teaching spoken English since 2007.</div>
           </div>
-        </aside>
+        </div>
       </div>
     </div>
   </header>
