@@ -20,7 +20,7 @@ window.WEBINAR_CONFIG = {
 
   // 3. GoHighLevel (GHL) Lead Capture
   // Paste your GHL Workflow Inbound Webhook URL here:
-  ghlWebhookUrl: "https://services.leadconnectorhq.com/hooks/E1ggOev0cMHylNbUTKSn/webhook-trigger/fdc0da0a-4cdd-4a80-919c-19a5e0237e6c",
+  ghlWebhookUrl: "https://services.leadconnectorhq.com/hooks/E1ggOev0cMHylNbUTKSn/webhook-trigger/pfYveKAirXwTWd2lr32P",
 
   // Optional: GHL Form POST endpoint if submitting directly to a GHL Form
   ghlFormUrl: "",
