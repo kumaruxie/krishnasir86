@@ -26,7 +26,7 @@ window.WEBINAR_CONFIG = {
   ghlFormUrl: "",
 
   // 4. WhatsApp Group Invite Link (shown in the Thank-You pop-up Step 1)
-  whatsappGroupUrl: "https://chat.whatsapp.com/REPLACE_WITH_YOUR_GROUP_INVITE",
+  whatsappGroupUrl: "https://chat.whatsapp.com/L5o9vBdgxPjLLBO0q6BWms",
 
   // 5. Meta Pixel ID (leave blank until ready for live Meta Ads tracking)
   metaPixelId: "",
